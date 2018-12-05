@@ -1,7 +1,6 @@
 /**
  * Created by Raphael Karanja on 04/12/2018.
  */
-"use strict"
 import React, {Component} from 'react';
 
 class Header extends Component {

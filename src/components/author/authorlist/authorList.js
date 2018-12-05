@@ -1,9 +1,9 @@
 /**
  * Created by Raphael Karanja on 05/12/2018.
  */
-import React from 'react';
+import React, { PropTypes } from 'react';
 
-const AuthorList = (props) => {
+const AuthorList = ({authors}) => {
     let createAuthorRow = (author)=>{
         return (
             <tr>
@@ -16,6 +16,7 @@ const AuthorList = (props) => {
             </tr>
         )
     };
+
     return (
         <div>
             <h1>Authors</h1>
@@ -27,11 +28,14 @@ const AuthorList = (props) => {
                 </tr>
                 </thead>
                 <tbody>
-                {props.author.map(createAuthorRow, this)}
+                {authors.map(createAuthorRow, this)}
                 </tbody>
             </table>
         </div>
     );
 };
 
+AuthorList.propTypes = {
+    // authors: PropTypes.array.isRequired
+};
 export default AuthorList;
