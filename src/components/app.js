@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import Header from './header/headerPage';
-import {RouteHandler} from 'react-router';
+let RouteHandler = require('react-router').RouteHandler;
 const App = (props) => {
     return (
         <div>
