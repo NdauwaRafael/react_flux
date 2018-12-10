@@ -19,9 +19,10 @@ let Route = Router.Route;
 
 const routes = (
     <Route name="home" path="/" component={HomePage}>
-        <DefaultRoute component={App} />
+        {/*<DefaultRoute component={App} />*/}
         <Route name="authors" component={AuthorsPage}/>
         <Route name="about"  component={AboutPage}/>
+        <Route component={App}/>
     </Route>
 );
 
