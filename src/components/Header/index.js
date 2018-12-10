@@ -2,18 +2,19 @@
  * Created by Raphael Karanja on 04/12/2018.
  */
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 export default ()=>
     <nav className="navbar">
         <ul className="nav">
             <li className="nav-item">
-                <a className="nav-link active" href="#home">Home</a>
+                <Link  to="/" className="nav-link active">Home</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#about">About</a>
+                <Link to="/about" className="nav-link" >About</Link>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#">Link</a>
+                <Link to="/author" className="nav-link">Author</Link>
             </li>
         </ul>
     </nav>
