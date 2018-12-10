@@ -3,7 +3,12 @@
  */
 import React from 'react';
 import Header from './Layout/Header/index';
-import Main from './Layout/Main'
+import Main from './Layout/Main';
+
+import { $, jQuery } from 'jquery';
+window.$ = $;
+window.jQuery = jQuery;
+
 const App = (props) => {
     return (
         <div>
