@@ -14,7 +14,7 @@ export default ()=>
                 <Link to="/about" className="nav-link" >About</Link>
             </li>
             <li className="nav-item">
-                <Link to="/author" className="nav-link">Author</Link>
+                <Link to="/authors" className="nav-link">Author</Link>
             </li>
         </ul>
     </nav>

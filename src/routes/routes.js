@@ -15,7 +15,7 @@ import {Route, Switch} from 'react-router-dom';
 
 const routes = (
     <Switch>
-        <Route path="/" component={HomePage}/>
+        <Route exact path="/" component={HomePage}/>
         <Route path="/authors" component={AuthorsPage}/>
         <Route path="/about" component={AboutPage}/>
         <Route component={App}/>
