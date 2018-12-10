@@ -3,14 +3,14 @@
  */
 import React from 'react';
 import Header from './header/headerPage';
-let RouteHandler = require('react-router').RouteHandler;
+import Main from './Main'
 const App = (props) => {
     return (
         <div>
             <div className="card">
                 <div className="container">
                     <Header/>
-                    <RouteHandler />
+                    <Main />
                 </div>
             </div>
         </div>
