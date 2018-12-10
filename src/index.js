@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './utils/imports';
 import routes from './routes/routes';
 import {BrowserRouter} from 'react-router-dom';
-import {Router} from 'react-router';
+import App from './components/app'
 
-ReactDOM.render((<BrowserRouter>{routes}</BrowserRouter>), document.getElementById('root'));
-
+ReactDOM.render((
+    <BrowserRouter>
+        <App/>
+    </BrowserRouter>
+    ), document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change
