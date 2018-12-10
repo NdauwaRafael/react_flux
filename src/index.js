@@ -2,9 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './utils/imports';
 import routes from './routes/routes';
+import {BrowserRouter} from 'react-router-dom';
 import {Router} from 'react-router';
 
-ReactDOM.render((<Router>{routes}</Router>), document.getElementById('root'));
+ReactDOM.render((<BrowserRouter>{routes}</BrowserRouter>), document.getElementById('root'));
 
 
 

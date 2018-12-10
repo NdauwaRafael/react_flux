@@ -10,20 +10,16 @@ import HomePage from '../components/homePage';
 import App from '../components/app';
 import AuthorsPage from '../components/author/authorPage';
 import AboutPage from '../components/about/aboutPage';
-
-let Router = require('react-router');
-let DefaultRoute = Router.DefaultRoute;
-let Route = Router.Route;
-
+import {Route, Switch} from 'react-router-dom';
 
 
 const routes = (
-    <Route name="home" path="/" component={HomePage}>
-        {/*<DefaultRoute component={App} />*/}
-        <Route name="authors" component={AuthorsPage}/>
-        <Route name="about"  component={AboutPage}/>
+    <Switch>
+        <Route path="/" component={HomePage}/>
+        <Route path="/authors" component={AuthorsPage}/>
+        <Route path="/about" component={AboutPage}/>
         <Route component={App}/>
-    </Route>
+    </Switch>
 );
 
 export default routes;
