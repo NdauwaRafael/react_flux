@@ -6,7 +6,7 @@ import React from 'react';
 
 //components
 // import IndexPage from '../index';
-import HomePage from '../components/homePage';
+import HomePage from '../components/Home/index';
 import App from '../components/app';
 import AuthorsPage from '../components/author/authorPage';
 import AboutPage from '../components/about/aboutPage';
