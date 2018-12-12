@@ -36,6 +36,6 @@ const AuthorList = ({authors}) => {
 };
 
 AuthorList.propTypes = {
-    // authors: PropTypes.array.isRequired
+    authors: PropTypes.array.isRequired
 };
 export default AuthorList;
