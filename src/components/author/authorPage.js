@@ -2,7 +2,7 @@
  * Created by Raphael Karanja on 05/12/2018.
  */
 import React, {Component} from 'react';
-import AuthorList from './authorlist/authorList'
+import AuthorList from './Authorlist/index'
 class AuthorPage extends  Component {
     constructor(props){
         super(props)
