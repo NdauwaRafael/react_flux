@@ -1,7 +1,7 @@
 /**
  * Created by Raphael Karanja on 05/12/2018.
  */
-import React, { PropTypes } from 'react';
+import React from 'react';
 
 const AuthorList = ({authors}) => {
     let createAuthorRow = (author)=>{
@@ -36,6 +36,6 @@ const AuthorList = ({authors}) => {
 };
 
 AuthorList.propTypes = {
-    authors: PropTypes.array.isRequired
+    // authors: PropTypes.array.isRequired
 };
 export default AuthorList;
