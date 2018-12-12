@@ -12,9 +12,11 @@ window.jQuery = jQuery;
 const App = (props) => {
     return (
         <div>
-            <div className="card">
+            <div >
                 <div className="container">
-                    <Header/>
+                    <div className="card">
+                        <Header/>
+                    </div>
                     <Main />
                 </div>
             </div>
