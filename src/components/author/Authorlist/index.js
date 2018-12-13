@@ -2,7 +2,7 @@
  * Created by Raphael Karanja on 05/12/2018.
  */
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 const AuthorList = ({authors}) => {
     let createAuthorRow = (author)=>{
         return (
@@ -14,7 +14,7 @@ const AuthorList = ({authors}) => {
                     {author.firstname} {author.lastname}
                 </td>
                 <td>
-                    View
+                    <Link to={"/author" + author.id}>View</Link>
                 </td>
             </tr>
         )
@@ -26,7 +26,7 @@ const AuthorList = ({authors}) => {
             <div className="card">
                 <div className="card-header text-right">
                     <button type="button" className="btn btn-outline-primary btn-sm">
-                        Add Author
+                        <Link to="/addAuthor"> Add Author</Link>
                     </button>
                 </div>
                 <div className="card-body">
