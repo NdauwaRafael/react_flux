@@ -13,6 +13,9 @@ const AuthorList = ({authors}) => {
                 <td>
                     {author.firstname} {author.lastname}
                 </td>
+                <td>
+                    View
+                </td>
             </tr>
         )
     };
@@ -20,17 +23,28 @@ const AuthorList = ({authors}) => {
     return (
         <div>
             <h1>Authors</h1>
-            <table className="table">
-                <thead>
-                <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                </tr>
-                </thead>
-                <tbody>
-                {authors.map(createAuthorRow, this)}
-                </tbody>
-            </table>
+            <div className="card">
+                <div className="card-header text-right">
+                    <button type="button" className="btn btn-outline-primary btn-sm">
+                        Add Author
+                    </button>
+                </div>
+                <div className="card-body">
+                    <table className="table table-bordered">
+                        <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Action</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {authors.map(createAuthorRow, this)}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
         </div>
     );
 };
