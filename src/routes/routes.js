@@ -8,7 +8,7 @@ import React from 'react';
 // import IndexPage from '../index';
 import HomePage from '../components/Home/index';
 import AuthorsPage from '../components/author/authorPage';
-import AddAuthor from '../components/author/Add';
+import AddAuthor from '../components/author/Manage';
 
 import AboutPage from '../components/about/aboutPage';
 import NotFound from '../components/404'

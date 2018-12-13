@@ -13,7 +13,9 @@ class AuthorPage extends  Component {
     render(){
         const {authors} = this.state;
         return (
-            <AuthorList authors={authors} />
+            <div className="page_body">
+                <AuthorList authors={authors} />
+            </div>
         )
     }
 };

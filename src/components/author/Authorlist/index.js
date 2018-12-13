@@ -23,7 +23,7 @@ const AuthorList = ({authors}) => {
 
     return (
         <div>
-            <h1>Authors</h1>
+            <h5>Authors</h5>
             <div className="card">
                 <div className="card-header text-right">
                     <button type="button" className="btn btn-outline-primary btn-sm">
