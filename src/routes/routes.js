@@ -10,6 +10,7 @@ import HomePage from '../components/Home/index';
 import App from '../components/app';
 import AuthorsPage from '../components/author/authorPage';
 import AboutPage from '../components/about/aboutPage';
+import NotFound from '../components/404'
 import {Route, Switch} from 'react-router-dom';
 
 
@@ -18,7 +19,7 @@ const routes = (
         <Route exact path="/" component={HomePage}/>
         <Route path="/authors" component={AuthorsPage}/>
         <Route path="/about" component={AboutPage}/>
-        <Route component={App}/>
+        <Route component={NotFound}/>
     </Switch>
 );
 
