@@ -10,6 +10,14 @@ export default class extends Component {
             email: ''
         }
     };
+
+    handleChange(event){
+        let field = event.target.name;
+        let value = event.target.value;
+        let author = {};
+        author[field] = value;
+        this.setState({author});
+    };
     render() {
         const {author} = this.state
         return (
