@@ -10,8 +10,8 @@ body, html {
 }
 
 .notfound {
-    background:black;
-    height:100vh;
+    background: #eee;
+    min-height:80vh;
     width:100%;
 }
 
