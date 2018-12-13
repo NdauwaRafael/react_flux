@@ -5,19 +5,16 @@ import React from 'react';
 import Header from './Layout/Header/index';
 import Main from './Layout/Main';
 
-import { $, jQuery } from 'jquery';
-window.$ = $;
-window.jQuery = jQuery;
 
 const App = (props) => {
     return (
         <div>
-            <div >
+            <div>
                 <div className="container">
                     <div className="card">
                         <Header/>
                     </div>
-                    <Main />
+                    <Main/>
                 </div>
             </div>
         </div>
