@@ -3,17 +3,19 @@ import AddAuthorForm from './Add'
 
 export default class extends Component {
     state = {
-        id: '',
-        firstname: '',
-        lastname: '',
-        email: ''
-
+        author: {
+            id: '',
+            firstname: '',
+            lastname: '',
+            email: ''
+        }
     };
     render() {
+        const {author} = this.state
         return (
             <div className="page_body">
                 <h5>Manage Authors</h5>
-                <AddAuthorForm />
+                <AddAuthorForm author={author}/>
             </div>
         )
     }
