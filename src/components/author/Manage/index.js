@@ -2,7 +2,9 @@ import React, {Component} from 'react';
 import AddAuthorForm from './Add'
 
 export default class extends Component {
-    state = {
+constructor(prop){
+    super(prop);
+    this.state = {
         author: {
             id: '',
             firstname: '',
@@ -10,6 +12,8 @@ export default class extends Component {
             email: ''
         }
     };
+    this.handleChange = this.handleChange.bind(this);
+}
 
     handleChange(event){
         let field = event.target.name;
@@ -23,7 +27,7 @@ export default class extends Component {
         return (
             <div className="page_body">
                 <h5>Manage Authors</h5>
-                <AddAuthorForm author={author}/>
+                <AddAuthorForm author={author} onChange={this.handleChange}/>
             </div>
         )
     }

@@ -1,12 +1,13 @@
 import React from 'react';
 
-export default ({author}) =>
+export default ({author, onChange}) =>
     <div className="page_body">
         <form>
             <div className="form-group">
                 <label htmlFor="authorName">First Name</label>
                 <input type="text"
                        value={author.firstname}
+                        onChange={onChange}
                        className="form-control"
                        id="authorName"
                        placeholder="Author First Name"/>
@@ -16,6 +17,7 @@ export default ({author}) =>
                 <label htmlFor="authorName">Last Name</label>
                 <input type="text"
                        value={author.lastname}
+                       onChange={onChange}
                        className="form-control"
                        id="authorName"
                        placeholder="Author Last Name"/>
@@ -25,6 +27,7 @@ export default ({author}) =>
                 <label htmlFor="authorEmail">Email</label>
                 <input type="email"
                        value={author.email}
+                       onChange={onChange}
                        className="form-control"
                        id="authorEmail"
                        aria-describedby="emailHelp"
