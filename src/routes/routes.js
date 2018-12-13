@@ -10,7 +10,7 @@ import HomePage from '../components/Home/index';
 import App from '../components/app';
 import AuthorsPage from '../components/author/authorPage';
 import AboutPage from '../components/about/aboutPage';
-import NotFound from '../components/404'
+import NotFound from '../components/404/NotFound'
 import {Route, Switch} from 'react-router-dom';
 
 
