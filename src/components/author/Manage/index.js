@@ -27,18 +27,43 @@ export default class extends Component {
         author[field] = value;
         this.setState({author});
     };
-    authorIsValid(){
+
+    emailIsValid(email) {
+        const emailRegex = /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i;
+        return emailRegex.test(String(email).toLowerCase());
+    }
+
+    authorIsValid() {
         let {author, errors} = this.state;
-        if(author.firstname!=='' && author.lastname !== '' && author.email !== ''){
-            return true
+        let isValid = true;
+
+        if(author.firstname.length <= 3){
+            errors.firstname = 'Author First Name must be at least 3 characters';
+            isValid = false;
         }
-            return false
+
+        if(author.lastname.length <= 3){
+            errors.lastname = 'Author Last Name must be at least 3 characters';
+            isValid = false;
+        }
+
+        if(!this.emailIsValid(author.email) ){
+            errors.email = 'Enter a valid Email';
+            isValid = false;
+        }
+
+        this.setState({errors});
+
+        return isValid;
+
     };
+
     saveAuthor(event) {
-        if(!this.authorIsValid){
+        event.preventDefault();
+
+        if (!this.authorIsValid()) {
             return;
         }
-        event.preventDefault();
         const {baseUrl, author} = this.state;
         let options = {
             method: 'POST',
@@ -63,11 +88,11 @@ export default class extends Component {
 
 
     render() {
-        const {author} = this.state;
+        const {author, errors} = this.state;
         return (
             <div className="page_body">
                 <h5>Manage Authors</h5>
-                <AddAuthorForm author={author} onChange={this.handleChange} onSave={this.saveAuthor}/>
+                <AddAuthorForm author={author} onChange={this.handleChange} onSave={this.saveAuthor} errors={errors}/>
             </div>
         )
     }
