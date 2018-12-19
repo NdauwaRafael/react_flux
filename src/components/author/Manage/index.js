@@ -10,9 +10,11 @@ export default class extends Component {
                 firstname: '',
                 lastname: '',
                 email: ''
-            }
+            },
+            baseUrl: 'http://localhost:3004/authors'
         };
         this.handleChange = this.handleChange.bind(this);
+        this.saveAuthor = this.saveAuthor.bind(this);
     }
 
     handleChange(event) {
@@ -25,7 +27,19 @@ export default class extends Component {
 
     saveAuthor(event) {
         event.preventDefault();
+        const {baseUrl, author} = this.state;
+        let options = {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(author)
+        };
+
+        return fetch(baseUrl, options)
+            .then((response) => response.json)
     };
+
 
     render() {
         const {author} = this.state;
