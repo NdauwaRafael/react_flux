@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import AddAuthorForm from './Add'
+import AddAuthorForm from './Add';
+import toastr from 'toastr'
 
 export default class extends Component {
     constructor(prop) {
@@ -38,10 +39,13 @@ export default class extends Component {
 
         return fetch(baseUrl, options)
             .then((response) => {
+                let authr = response;
+                console.log(authr, response.json())
                 this.props.history.push('/authors');
-                return response.json;
+                toastr.success(`Author details were registered successfully.`, 'Author Added Successfully', {timeOut: 5000});
             })
-            .catch((error)=>{
+            .catch((error) => {
+                toastr.error('Author Details could not be saved. An Error occurred.', 'Oops!', {timeOut: 5000});
                 console.log('error', error)
             })
     };

@@ -35,6 +35,30 @@
       "firstname": "Douglas",
       "lastname": "Mburu",
       "email": "dmburu@gmail.com"
+    },
+    {
+      "id": 7,
+      "firstname": "Phillip",
+      "lastname": "Kitamura",
+      "email": "pkitamura@gmail.com"
+    },
+    {
+      "id": 8,
+      "firstname": "Jane ",
+      "lastname": "Doe",
+      "email": "jdoe@gmail.com"
+    },
+    {
+      "id": 9,
+      "firstname": "Raphael",
+      "lastname": "Karanja",
+      "email": "raphaelndauwa@gmail.com"
+    },
+    {
+      "id": 10,
+      "firstname": "Paul",
+      "lastname": "K",
+      "email": "raphaelndauwa@gmail.com"
     }
   ]
 }
