@@ -29,6 +29,12 @@
       "firstname": "Raphael",
       "lastname": "Karanja",
       "email": "raphaelndauwa@gmail.com"
+    },
+    {
+      "id": 6,
+      "firstname": "Douglas",
+      "lastname": "Mburu",
+      "email": "dmburu@gmail.com"
     }
   ]
 }

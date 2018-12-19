@@ -10,6 +10,11 @@ class AuthorPage extends  Component {
             authors: []
         }
     };
+    async componentDidMount() {
+        const authors = await (await fetch('http://localhost:3004/authors') ).json();
+        this.setState({authors});
+    };
+
     render(){
         const {authors} = this.state;
         return (

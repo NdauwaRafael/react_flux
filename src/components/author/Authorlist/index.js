@@ -9,13 +9,13 @@ const AuthorList = ({authors}) => {
         return (
             <tr>
                 <td>
-                    <a href={"/author" + author.id}>{author.id}</a>
+                    <a href={"/author/" + author.id}>{author.id}</a>
                 </td>
                 <td>
                     {author.firstname} {author.lastname}
                 </td>
                 <td>
-                    <Link to={"/author" + author.id}>View</Link>
+                    <Link to={"/author/" + author.id}>View</Link>
                 </td>
             </tr>
         )
