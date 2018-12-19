@@ -23,7 +23,7 @@ export default class extends Component {
         this.setState({author});
     };
 
-    saveAuthor() {
+    saveAuthor(event) {
 
     };
 
