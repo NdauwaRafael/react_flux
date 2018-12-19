@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default ({author, onChange}) =>
+
     <div className="page_body">
         <form>
             <div className="form-group">
@@ -10,7 +11,6 @@ export default ({author, onChange}) =>
                        name="firstname"
                         onChange={onChange}
                        className="form-control"
-                       ref="firstname"
                        placeholder="Author First Name"/>
             </div>
 
@@ -21,7 +21,6 @@ export default ({author, onChange}) =>
                        name="lastname"
                        onChange={onChange}
                        className="form-control"
-                       ref="lastname"
                        placeholder="Author Last Name"/>
             </div>
 
@@ -31,7 +30,6 @@ export default ({author, onChange}) =>
                        value={author.email}
                        onChange={onChange}
                        className="form-control"
-                       ref="email"
                        name="email"
                        aria-describedby="emailHelp"
                        placeholder="Author email address"/>

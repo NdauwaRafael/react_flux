@@ -1,17 +1,44 @@
 /**
  * Created by Raphael Karanja on 2018-12-19.
  */
-import React from 'react';
+import React,{Component} from 'react';
+import PropTypes from 'prop-types';
+ class TextInput extends Component {
+    constructor(props){
+        super(props);
+    }
 
-export default ({name, value, label, error, onChange}) =>
-    <div className="form-group">
-        <label htmlFor={name}>{label}</label>
-        <input type="text"
-               value={value}
-               name={name}
-               onChange={onChange}
-               className="form-control"
-               ref={name}
-               placeholder={'Input ' + label}/>
-        <small id="emailHelp" className="form-text text-muted">{error}</small>
-    </div>
+    render(){
+        const {name, value, label, error, onChange} = props;
+        const validatorClass= ()=>{
+            if(error.legth > 0) {
+                return 'is-invalid'
+            } else {
+                return '';
+            }
+        };
+        return(
+            <div className="form-group " >
+                <label htmlFor={name}>{label}</label>
+                <input type="text"
+                       value={value}
+                       name={name}
+                       onChange={onChange}
+                       className={"form-control "+validatorClass}
+                       ref={name}
+                       placeholder={'Input ' + label}/>
+                <small className="form-text text-muted invalid-feedback">{error}</small>
+            </div>
+        );
+
+    }
+}
+
+TextInput.propTypes = {
+    name: PropTypes.string,
+    value: PropTypes.string,
+    label: PropTypes.string,
+    onChange: PropTypes.func
+
+};
+export default TextInput;
