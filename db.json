@@ -11,6 +11,24 @@
       "firstname": "Jane Phillip",
       "lastname": "jphillip@gmail.com",
       "email": "Jphillip101"
+    },
+    {
+      "id": 3,
+      "firstname": "Patric ",
+      "lastname": "Damsly",
+      "email": "PDamsley"
+    },
+    {
+      "id": 4,
+      "firstname": "John",
+      "lastname": "Doe",
+      "email": "jdoe@gmail.com"
+    },
+    {
+      "id": 5,
+      "firstname": "Raphael",
+      "lastname": "Karanja",
+      "email": "raphaelndauwa@gmail.com"
     }
   ]
 }
