@@ -24,7 +24,7 @@ export default class extends Component {
     };
 
     saveAuthor(event) {
-
+        event.preventDefault();
     };
 
     render() {
