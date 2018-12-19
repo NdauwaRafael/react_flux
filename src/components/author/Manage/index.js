@@ -46,7 +46,7 @@ export default class extends Component {
         return (
             <div className="page_body">
                 <h5>Manage Authors</h5>
-                <AddAuthorForm author={author} onChange={this.handleChange} save={this.saveAuthor}/>
+                <AddAuthorForm author={author} onChange={this.handleChange} onSave={this.saveAuthor}/>
             </div>
         )
     }
