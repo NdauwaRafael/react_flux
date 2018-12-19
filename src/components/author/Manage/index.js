@@ -38,6 +38,9 @@ export default class extends Component {
 
         return fetch(baseUrl, options)
             .then((response) => response.json)
+            .catch((error)=>{
+                console.log('error', error)
+            })
     };
 
 

@@ -5,6 +5,12 @@
       "firstname": "Raphael",
       "lastname": "Karanja",
       "email": "raphaelndauwa@gmail.com"
+    },
+    {
+      "id": 2,
+      "firstname": "Jane Phillip",
+      "lastname": "jphillip@gmail.com",
+      "email": "Jphillip101"
     }
   ]
 }
