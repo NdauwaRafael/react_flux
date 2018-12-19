@@ -10,7 +10,7 @@ export default ({author, onChange}) =>
                        name="firstname"
                         onChange={onChange}
                        className="form-control"
-                       id="authorName"
+                       ref="firstname"
                        placeholder="Author First Name"/>
             </div>
 
@@ -21,7 +21,7 @@ export default ({author, onChange}) =>
                        name="lastname"
                        onChange={onChange}
                        className="form-control"
-                       id="authorName"
+                       ref="lastname"
                        placeholder="Author Last Name"/>
             </div>
 
@@ -31,7 +31,7 @@ export default ({author, onChange}) =>
                        value={author.email}
                        onChange={onChange}
                        className="form-control"
-                       id="authorEmail"
+                       ref="email"
                        name="email"
                        aria-describedby="emailHelp"
                        placeholder="Author email address"/>

@@ -23,7 +23,7 @@ constructor(prop){
         this.setState({author});
     };
     render() {
-        const {author} = this.state
+        const {author} = this.state;
         return (
             <div className="page_body">
                 <h5>Manage Authors</h5>
