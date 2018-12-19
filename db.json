@@ -1,3 +1,10 @@
 {
-  "authors": []
+  "authors": [
+    {
+      "id": 1,
+      "firstname": "Raphael",
+      "lastname": "Karanja",
+      "email": "raphaelndauwa@gmail.com"
+    }
+  ]
 }

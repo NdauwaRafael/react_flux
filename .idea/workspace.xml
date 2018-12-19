@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2af55fc-f363-47cf-a151-244a3e809e05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/author/Manage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/author/Manage/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="f2af55fc-f363-47cf-a151-244a3e809e05" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/author/Manage/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+            <state relative-caret-position="558">
+              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -52,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
@@ -123,8 +119,8 @@
         <option value="$PROJECT_DIR$/src/components/author/Authorlist/index.js" />
         <option value="$PROJECT_DIR$/src/components/Common/TextInput/index.js" />
         <option value="$PROJECT_DIR$/src/components/author/Manage/Add/index.js" />
-        <option value="$PROJECT_DIR$/src/components/author/Manage/index.js" />
         <option value="$PROJECT_DIR$/db.json" />
+        <option value="$PROJECT_DIR$/src/components/author/Manage/index.js" />
       </list>
     </option>
   </component>
@@ -204,12 +200,12 @@
       <workItem from="1544690530381" duration="387000" />
       <workItem from="1544691566524" duration="6216000" />
       <workItem from="1545141952472" duration="190000" />
-      <workItem from="1545202276806" duration="4232000" />
+      <workItem from="1545202276806" duration="4500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25066000" />
+    <option name="totallyTimeSpent" value="25334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -393,6 +389,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/author/Manage/Add/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -405,18 +408,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/author/Manage/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        <state relative-caret-position="558">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
