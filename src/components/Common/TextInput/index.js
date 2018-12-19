@@ -27,7 +27,7 @@ class TextInput extends Component {
                        onChange={onChange}
                        className={"form-control " + validatorClass}
                        ref={name}
-                       placeholder={'Input ' + label}/>
+                       placeholder={label}/>
                 <small className="form-text text-muted invalid-feedback">{error}</small>
             </div>
         );
