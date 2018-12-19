@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom';
 const AuthorList = ({authors}) => {
     let createAuthorRow = (author)=>{
         return (
-            <tr>
+            <tr key={author.id}>
                 <td>
                     <a href={"/author/" + author.id}>{author.id}</a>
                 </td>

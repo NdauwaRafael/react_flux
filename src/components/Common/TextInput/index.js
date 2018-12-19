@@ -5,10 +5,7 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
 class TextInput extends Component {
-    constructor(props) {
-        super(props);
-    }
-
+    
     render() {
         const {name, value, label, error, onChange} = this.props;
         const validatorClass = () => {
