@@ -9,7 +9,7 @@ class TextInput extends Component {
     render() {
         const {name, value, label, error, onChange} = this.props;
         const validatorClass = () => {
-            if (error.legth > 0) {
+            if (error.length > 0) {
                 return 'is-invalid'
             } else {
                 return '';

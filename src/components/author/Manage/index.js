@@ -60,7 +60,7 @@ export default class extends Component {
 
     saveAuthor(event) {
         event.preventDefault();
-
+            console.log(this.state.errors);
         if (!this.authorIsValid()) {
             return;
         }
