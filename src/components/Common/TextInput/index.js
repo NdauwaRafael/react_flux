@@ -25,7 +25,7 @@ class TextInput extends Component {
                        className={"form-control " + validatorClass}
                        ref={name}
                        placeholder={label}/>
-                <small className="form-text text-muted invalid-feedback">{error}</small>
+                <small className="form-text invalid-feedback">{error}</small>
             </div>
         );
 
