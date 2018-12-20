@@ -60,7 +60,6 @@ export default class extends Component {
 
     saveAuthor(event) {
         event.preventDefault();
-            console.log(this.state.errors);
         if (!this.authorIsValid()) {
             return;
         }
@@ -82,7 +81,6 @@ export default class extends Component {
             })
             .catch((error) => {
                 toastr.error('Author Details could not be saved. An Error occurred.', {timeOut: 5000});
-                console.log('error', error)
             })
     };
 
