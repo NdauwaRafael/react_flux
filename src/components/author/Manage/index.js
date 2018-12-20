@@ -26,6 +26,7 @@ export default class extends Component {
         let author = this.state.author;
         author[field] = value;
         this.setState({author});
+        // this.authorIsValid();
     };
 
     emailIsValid(email) {
@@ -40,16 +41,22 @@ export default class extends Component {
         if(author.firstname.length <= 3){
             errors.firstname = 'Author First Name must be at least 3 characters';
             isValid = false;
+        }else {
+            errors.firstname = ''
         }
 
         if(author.lastname.length <= 3){
             errors.lastname = 'Author Last Name must be at least 3 characters';
             isValid = false;
+        }else{
+            errors.lastname = ''
         }
 
         if(!this.emailIsValid(author.email) ){
             errors.email = 'Enter a valid Email';
             isValid = false;
+        }else{
+            errors.email = ''
         }
 
         this.setState({errors});

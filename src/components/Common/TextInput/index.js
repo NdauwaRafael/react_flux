@@ -11,6 +11,8 @@ class TextInput extends Component {
         let validatorClass = '';
         if (error.length > 0) {
             validatorClass = 'is-invalid'
+        }else{
+            validatorClass= 'is-valid'
         }
 
         return (
