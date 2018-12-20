@@ -3,6 +3,8 @@
  */
 import React from 'react';
 import {Link} from 'react-router-dom';
+import PropTypes from 'prop-types';
+
 
 const AuthorList = ({authors}) => {
     let createAuthorRow = (author)=>{
@@ -51,6 +53,6 @@ const AuthorList = ({authors}) => {
 };
 
 AuthorList.propTypes = {
-    // authors: PropTypes.array.isRequired
+    authors: PropTypes.array.isRequired
 };
 export default AuthorList;
