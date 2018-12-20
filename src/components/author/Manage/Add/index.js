@@ -18,6 +18,6 @@ Add.prototype = {
     author: PropTypes.object.isRequired,
     onChange: PropTypes.func.isRequired,
     onSave: PropTypes.func.isRequired,
-    errors: PropTypes.object.isRequired
+    errors: PropTypes.object
 };
 export default Add;
