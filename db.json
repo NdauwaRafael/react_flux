@@ -5,13 +5,7 @@
       "firstname": "Raphael",
       "lastname": "Karanja",
       "email": "raphaelndauwa@gmail.com"
-    },
-    {
-      "id": 2,
-      "firstname": "Jane Phillip",
-      "lastname": "jphillip@gmail.com",
-      "email": "Jphillip101"
-    },
+    }
     {
       "id": 3,
       "firstname": "Patric ",
@@ -23,12 +17,6 @@
       "firstname": "John",
       "lastname": "Doe",
       "email": "jdoe@gmail.com"
-    },
-    {
-      "id": 5,
-      "firstname": "Raphael",
-      "lastname": "Karanja",
-      "email": "raphaelndauwa@gmail.com"
     },
     {
       "id": 6,
@@ -47,54 +35,6 @@
       "firstname": "Jane ",
       "lastname": "Doe",
       "email": "jdoe@gmail.com"
-    },
-    {
-      "id": 9,
-      "firstname": "Raphael",
-      "lastname": "Karanja",
-      "email": "raphaelndauwa@gmail.com"
-    },
-    {
-      "id": 10,
-      "firstname": "Paul",
-      "lastname": "K",
-      "email": "raphaelndauwa@gmail.com"
-    },
-    {
-      "id": 11,
-      "firstname": "",
-      "lastname": "",
-      "email": ""
-    },
-    {
-      "id": 12,
-      "firstname": "",
-      "lastname": "",
-      "email": ""
-    },
-    {
-      "id": 13,
-      "firstname": "",
-      "lastname": "",
-      "email": ""
-    },
-    {
-      "id": 14,
-      "firstname": "",
-      "lastname": "",
-      "email": ""
-    },
-    {
-      "id": 15,
-      "firstname": "",
-      "lastname": "",
-      "email": ""
-    },
-    {
-      "id": 16,
-      "firstname": "",
-      "lastname": "",
-      "email": ""
     }
-  ]
+    ]
 }
