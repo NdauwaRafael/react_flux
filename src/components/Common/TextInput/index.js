@@ -8,13 +8,11 @@ class TextInput extends Component {
 
     render() {
         const {name, value, label, error, onChange} = this.props;
-        const validatorClass = () => {
-            if (error.length > 0) {
-                return 'is-invalid'
-            } else {
-                return '';
-            }
-        };
+        let validatorClass = '';
+        if (error.length > 0) {
+            validatorClass = 'is-invalid'
+        }
+
         return (
             <div className="form-group ">
                 <label htmlFor={name}>{label}</label>
@@ -39,5 +37,10 @@ TextInput.propTypes = {
     error: PropTypes.string,
     onChange: PropTypes.func.isRequired
 
+};
+
+TextInput.defaultProps = {
+    error: '',
+    value: ''
 };
 export default TextInput;
