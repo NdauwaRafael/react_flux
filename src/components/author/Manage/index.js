@@ -26,7 +26,7 @@ export default class extends Component {
         let author = this.state.author;
         author[field] = value;
         this.setState({author});
-        // this.authorIsValid();
+        this.authorIsValid();
     };
 
     emailIsValid(email) {
