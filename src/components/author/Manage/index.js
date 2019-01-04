@@ -23,7 +23,6 @@ class Manage extends Component {
 
     };
 
-
     handleChange(event) {
         this.setState({
             dirty: true
