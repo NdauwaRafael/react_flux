@@ -6,14 +6,13 @@ import React, {Component} from 'react';
 export default class extends Component {
     constructor(props) {
         super(props);
-
         this.state = {
             author: {}
         }
     }
 
     async componentWillMount() {
-        let authorId = this.props.params.id;
+        let authorId = this.props.match.params.id;
         if (authorId) {
             let author = await (await fetch('http://localhost:3004/authors/' + authorId)).json();
             this.setState({author});
@@ -22,7 +21,7 @@ export default class extends Component {
 
     render() {
         const {author} = this.state;
-        return super.render(
+        return(
             <div>
                 <table className="table table-bordered">
                     <thead>

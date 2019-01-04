@@ -9,6 +9,7 @@ import React from 'react';
 import HomePage from '../components/Home/index';
 import AuthorsPage from '../components/author/authorPage';
 import AddAuthor from '../components/author/Manage';
+import Author from '../components/author/Authorlist/Author'
 
 import AboutPage from '../components/about/aboutPage';
 import NotFound from '../components/404'
@@ -20,6 +21,7 @@ const routes = (
         <Route exact path="/" component={HomePage}/>
         <Route path="/authors" component={AuthorsPage}/>
         <Route path="/addAuthor" component={AddAuthor}/>
+        <Route path="/author/:id" component={Author}/>
         <Route path="/about" component={AboutPage}/>
         <Route component={NotFound}/>
     </Switch>
