@@ -20,4 +20,28 @@ export default class extends Component {
         }
     }
 
+    render() {
+        const {author} = this.state;
+        return super.render(
+            <div>
+                <table className="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>{author.firstname}</td>
+                        <td>{author.lastname}</td>
+                        <td>{author.email}</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        );
+    }
+
 }
