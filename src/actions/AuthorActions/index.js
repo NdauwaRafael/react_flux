@@ -3,7 +3,7 @@
  */
 const Dispatcher = require('../../dispatcher');
 const AuthorActions = {
-
+        createAuthor: (author)=>{}
 };
 
 export default AuthorActions;
