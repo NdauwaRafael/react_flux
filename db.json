@@ -41,6 +41,12 @@
       "firstname": "Raphael",
       "lastname": "Karanja",
       "email": "raphaelndauwa@gmail.com"
+    },
+    {
+      "id": 10,
+      "firstname": "Faith",
+      "lastname": "Raphael",
+      "email": "frafael@gmail.com"
     }
   ]
 }
