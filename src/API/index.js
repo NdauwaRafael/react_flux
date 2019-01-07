@@ -3,7 +3,7 @@
  */
 import toastr from 'toastr'
 
-const saveAuthor = (author, baseUrl)=>{
+const saveAuthor = (author, baseUrl) => {
     let options = {
         method: 'POST',
         headers: {
@@ -12,15 +12,5 @@ const saveAuthor = (author, baseUrl)=>{
         body: JSON.stringify(author)
     };
 
-
-    return fetch(baseUrl, options)
-              .then((response) => {
-                      let authr = response;
-                      toastr.success(`Author details were registered successfully.`, {timeOut: 5000});
-                      return authr;
-              })
-              .catch((error) => {
-                      toastr.error('Author Details could not be saved. An Error occurred.', {timeOut: 5000});
-                      return {};
-              })
+    return fetch(baseUrl, options);
 };
