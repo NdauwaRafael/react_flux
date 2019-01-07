@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2af55fc-f363-47cf-a151-244a3e809e05" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/stores/AuthorStores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/AuthorStores/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="f2af55fc-f363-47cf-a151-244a3e809e05" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/stores/AuthorStores/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="684">
+              <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
               <folding>
                 <element signature="e#53#95#0" expanded="true" />
               </folding>
@@ -221,12 +219,12 @@
       <workItem from="1545141952472" duration="190000" />
       <workItem from="1545202276806" duration="9524000" />
       <workItem from="1545285980461" duration="6025000" />
-      <workItem from="1546585093292" duration="6257000" />
+      <workItem from="1546585093292" duration="6456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42640000" />
+    <option name="totallyTimeSpent" value="42839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -523,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stores/AuthorStores/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="684">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding>
             <element signature="e#53#95#0" expanded="true" />
           </folding>

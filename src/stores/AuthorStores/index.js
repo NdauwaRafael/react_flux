@@ -18,3 +18,6 @@ const AuthorStore = assign({}, EventEmitter.prototype, {
         this.emit(CHANGE_EVENT);
     }
 });
+Dispatcher.register((action)=>{
+
+});
