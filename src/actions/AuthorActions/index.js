@@ -8,13 +8,7 @@ const ActionTypes = require('../../constants/ActionTypes');
 
 const AuthorActions = {
         createAuthor: (author, baseUrl)=>{
-                let options = {
-                        method: 'POST',
-                        headers: {
-                                'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify(author)
-                };
+
 
           // return fetch(baseUrl, options)
           //           .then((response) => {
