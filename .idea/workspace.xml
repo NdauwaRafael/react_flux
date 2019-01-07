@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2af55fc-f363-47cf-a151-244a3e809e05" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/API/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/AuthorActions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/AuthorActions/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,16 +50,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/actions/AuthorActions/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="24" selection-end-column="25" />
+            <state>
+              <folding>
+                <element signature="e#83#126#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/API/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="724">
@@ -117,8 +118,8 @@
         <option value="$PROJECT_DIR$/src/components/author/Authorlist/Author/index.js" />
         <option value="$PROJECT_DIR$/src/dispatcher/index.js" />
         <option value="$PROJECT_DIR$/src/constants/ActionTypes/index.js" />
-        <option value="$PROJECT_DIR$/src/actions/AuthorActions/index.js" />
         <option value="$PROJECT_DIR$/src/API/index.js" />
+        <option value="$PROJECT_DIR$/src/actions/AuthorActions/index.js" />
       </list>
     </option>
   </component>
@@ -205,12 +206,12 @@
       <workItem from="1545141952472" duration="190000" />
       <workItem from="1545202276806" duration="9524000" />
       <workItem from="1545285980461" duration="6025000" />
-      <workItem from="1546585093292" duration="4905000" />
+      <workItem from="1546585093292" duration="5120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41288000" />
+    <option name="totallyTimeSpent" value="41503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -468,10 +469,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/AuthorActions/index.js">
+    <entry file="file://$PROJECT_DIR$/src/API/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="724">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -495,10 +496,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/index.js">
+    <entry file="file://$PROJECT_DIR$/src/actions/AuthorActions/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state>
+          <folding>
+            <element signature="e#83#126#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
