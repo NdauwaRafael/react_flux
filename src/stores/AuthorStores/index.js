@@ -5,6 +5,7 @@ import Dispatcher from '../../dispatcher';
 import ActionTypes from '../../constants/ActionTypes';
 import {EventEmitter} from 'events';
 import assign from 'object-assign';
+require('lodash');
 
 const CHANGE_EVENT = 'change';
 let _authors = [];
