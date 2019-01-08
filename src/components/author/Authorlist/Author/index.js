@@ -2,7 +2,8 @@
  * Created by Raphael Karanja on 2019-01-04.
  */
 import React, {Component} from 'react';
-
+import AuthorActions from '../../../actions/AuthorActions';
+import AuthorStore from '../../../stores/AuthorStores';
 export default class extends Component {
     constructor(props) {
         super(props);
@@ -14,7 +15,7 @@ export default class extends Component {
     async componentWillMount() {
         let authorId = this.props.match.params.id;
         if (authorId) {
-            let author = await (await fetch('http://localhost:3004/authors/' + authorId)).json();
+            let author = AuthorStore.getAuthorById(authorId);
             this.setState({author});
         }
     }
