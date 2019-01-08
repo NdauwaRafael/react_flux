@@ -32,7 +32,6 @@ Dispatcher.register((action) => {
             _authors.push(action.author);
             AuthorStore.emitChange();
             break;
-        default
     }
 });
 

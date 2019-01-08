@@ -1,7 +1,6 @@
 /**
  * Created by Raphael Karanja on 2019-01-07.
  */
-import toastr from 'toastr'
 
 const saveAuthor = (author, baseUrl) => {
     let options = {
@@ -14,3 +13,5 @@ const saveAuthor = (author, baseUrl) => {
 
     return fetch(baseUrl, options);
 };
+
+export default saveAuthor;
