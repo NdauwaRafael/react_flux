@@ -19,5 +19,9 @@ const AuthorStore = assign({}, EventEmitter.prototype, {
     }
 });
 Dispatcher.register((action)=>{
-
+        switch (action.actionType) {
+            
+        }
 });
+
+export default AuthorStore;
