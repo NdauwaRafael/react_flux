@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2af55fc-f363-47cf-a151-244a3e809e05" name="Default" comment="" />
+    <list default="true" id="f2af55fc-f363-47cf-a151-244a3e809e05" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/stores/AuthorStores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/AuthorStores/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/stores/AuthorStores/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="796">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+            <state relative-caret-position="750">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding>
                 <element signature="e#53#95#0" expanded="true" />
               </folding>
@@ -220,15 +222,16 @@
       <workItem from="1545285980461" duration="6025000" />
       <workItem from="1546585093292" duration="6937000" />
       <workItem from="1546870105325" duration="159000" />
-      <workItem from="1546948640288" duration="110000" />
+      <workItem from="1546948640288" duration="343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43589000" />
+    <option name="totallyTimeSpent" value="43822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.120238096" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -520,8 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stores/AuthorStores/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        <state relative-caret-position="750">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
             <element signature="e#53#95#0" expanded="true" />
           </folding>
