@@ -2,7 +2,7 @@
  * Created by Raphael Karanja on 2019-01-07.
  */
 
-const saveAuthor = (author, baseUrl) => {
+let saveAuthor = function(author, baseUrl)  {
     let options = {
         method: 'POST',
         headers: {
@@ -14,4 +14,6 @@ const saveAuthor = (author, baseUrl) => {
     return fetch(baseUrl, options);
 };
 
-export default saveAuthor;
+export default {
+    saveAuthor
+};

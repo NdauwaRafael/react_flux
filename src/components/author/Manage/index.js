@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import AddAuthorForm from './Add';
 import toastr from 'toastr';
-
+import AuthorActions from '../../../actions/AuthorActions';
+import AuthorStore from '../../../stores/AuthorStores';
 
 class Manage extends Component {
     constructor(prop) {
@@ -78,27 +79,28 @@ class Manage extends Component {
             return;
         }
         const {baseUrl, author} = this.state;
-        let options = {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(author)
-        };
-
-        return fetch(baseUrl, options)
-            .then((response) => {
-                let authr = response;
-                console.log(authr, response.json())
-                this.props.history.push('/authors');
-                toastr.success(`Author details were registered successfully.`, {timeOut: 5000});
-                this.setState({
-                    dirty: true
-                });
-            })
-            .catch((error) => {
-                toastr.error('Author Details could not be saved. An Error occurred.', {timeOut: 5000});
-            })
+        AuthorActions.createAuthor(author, baseUrl);
+        // let options = {
+        //     method: 'POST',
+        //     headers: {
+        //         'Content-Type': 'application/json'
+        //     },
+        //     body: JSON.stringify(author)
+        // };
+        //
+        // return fetch(baseUrl, options)
+        //     .then((response) => {
+        //         let authr = response;
+        //         console.log(authr, response.json())
+        //         this.props.history.push('/authors');
+        //         toastr.success(`Author details were registered successfully.`, {timeOut: 5000});
+        //         this.setState({
+        //             dirty: true
+        //         });
+        //     })
+        //     .catch((error) => {
+        //         toastr.error('Author Details could not be saved. An Error occurred.', {timeOut: 5000});
+        //     })
     };
 
     static willTransitionFrom = (transition, component) => {
