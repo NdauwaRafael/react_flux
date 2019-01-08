@@ -80,6 +80,10 @@ class Manage extends Component {
         }
         const {baseUrl, author} = this.state;
         AuthorActions.createAuthor(author, baseUrl);
+        this.setState({
+            dirty: true
+        });
+        this.props.history.push('/authors');
         // let options = {
         //     method: 'POST',
         //     headers: {

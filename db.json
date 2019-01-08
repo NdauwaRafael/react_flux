@@ -53,6 +53,12 @@
       "firstname": "Raphael",
       "lastname": "Karanja",
       "email": "raphaelndauwa@gmail.com"
+    },
+    {
+      "id": 12,
+      "firstname": "Lil Raph",
+      "lastname": "Karanja",
+      "email": "lndauwa@gmail.com"
     }
   ]
 }
