@@ -20,6 +20,9 @@ const AuthorStore = assign({}, EventEmitter.prototype, {
     },
     getAllAuthors: ()=>{
         return _authors;
+    },
+    getAuthorById: (id)=>{
+        return _.find(_authors, {id: id});
     }
 });
 Dispatcher.register((action) => {
