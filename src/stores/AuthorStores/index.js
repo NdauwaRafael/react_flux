@@ -17,6 +17,9 @@ const AuthorStore = assign({}, EventEmitter.prototype, {
     },
     emitChange: () => {
         this.emit(CHANGE_EVENT);
+    },
+    getAllAuthors: ()=>{
+        return _authors;
     }
 });
 Dispatcher.register((action) => {
