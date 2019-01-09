@@ -8,6 +8,9 @@ var CHANGE_EVENT = 'change';
 class Store extends EventEmitter {
     constructor() {
         super();
+        this.emitChange = this.emitChange.bind(this);
+        this.addChangeListener = this.addChangeListener.bind(this);
+        this.removeChangeListener = this.removeChangeListener.bind(this);
     }
     emitChange() {
         this.emit(CHANGE_EVENT);

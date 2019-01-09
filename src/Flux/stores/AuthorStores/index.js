@@ -3,54 +3,16 @@
  */
 import Dispatcher from '../../dispatcher';
 import ActionTypes from '../../constants/ActionTypes';
-import {EventEmitter} from 'events';
-import assign from 'object-assign';
 import _ from 'lodash';
 import Store from '../Store';
-
-const CHANGE_EVENT = 'change';
 let _authors = [];
 let _dirtyState = false;
-const AuthorStore = assign({}, EventEmitter.prototype, {
-    addChangeListener: (callback) => {
-        this.on(CHANGE_EVENT, callback);
-    },
-    removeChangeListener: (callback) => {
-        this.on(CHANGE_EVENT, callback);
-    },
-    emitChange: () => {
-        this.emit(CHANGE_EVENT);
-    },
-    getAllAuthors: () => {
-        return _authors;
-    },
-    getAuthorById: (id) => {
-        return _.find(_authors, {id: id});
-    },
-    getDirtyState() {
-        return _dirtyState;
-    }
-});
-Dispatcher.register((action) => {
-    switch (action.actionType) {
-        case ActionTypes.CREATE_AUTHOR :
-            _authors.push(action.data);
-            AuthorStore.emitChange();
-            break;
-        case ActionTypes.GET_ALL_AUTHORS:
-            _authors = action.data;
-            AuthorStore.emitChange();
-            break;
-    }
-});
-
-export default AuthorStore;
-
 let appState;
 
 function reset() {
     appState = {};
 }
+
 class AuthorStore extends Store {
     constructor() {
         super();
@@ -59,6 +21,36 @@ class AuthorStore extends Store {
     getState() {
         return appState;
     }
+
+     getAllAuthors() {
+        return _authors;
+    }
+    getAuthorById(id) {
+        return _.find(_authors, {id: id});
+    }
+
+    static getDirtyState() {
+        return _dirtyState;
+    }
 }
 
 let authorStoreInstance = new AuthorStore();
+
+authorStoreInstance.dispatchToken = Dispatcher.register(action => {
+    switch (action.actionType) {
+        case ActionTypes.APP_INITIALIZED:
+            reset();
+
+        case ActionTypes.CREATE_AUTHOR :
+            _authors.push(action.data);
+            break;
+        case ActionTypes.GET_ALL_AUTHORS:
+            _authors = action.data;
+            break;
+        default:
+            return;
+    }
+    authorStoreInstance.emitChange();
+});
+
+export default authorStoreInstance;
