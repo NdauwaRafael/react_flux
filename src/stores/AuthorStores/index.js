@@ -9,6 +9,7 @@ import _ from 'lodash';
 
 const CHANGE_EVENT = 'change';
 let _authors = [];
+let _dirtyState = false;
 const AuthorStore = assign({}, EventEmitter.prototype, {
     addChangeListener: (callback) => {
         this.on(CHANGE_EVENT, callback);
@@ -24,6 +25,9 @@ const AuthorStore = assign({}, EventEmitter.prototype, {
     },
     getAuthorById: (id)=>{
         return _.find(_authors, {id: id});
+    },
+    getDirtyState(){
+        return _dirtyState;
     }
 });
 Dispatcher.register((action) => {

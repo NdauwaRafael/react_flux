@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import AddAuthorForm from './Add';
-import toastr from 'toastr';
 import AuthorActions from '../../../actions/AuthorActions';
 import AuthorStore from '../../../stores/AuthorStores';
 
