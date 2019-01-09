@@ -23,8 +23,8 @@ class AuthorPage extends Component {
         setTimeout(()=>{
             this.setState({
                 authors: AuthorStore.getAllAuthors()
-            }, 2000);
-        })
+            });
+        }, 200)
     };
 
     componentWillUnmount() {
