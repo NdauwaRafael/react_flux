@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="832">
+              <caret line="63" column="23" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="23" />
               <folding>
                 <element signature="e#53#95#0" expanded="true" />
                 <element signature="e#379#817#0" />
@@ -196,12 +196,12 @@
       <workItem from="1546585093292" duration="6937000" />
       <workItem from="1546870105325" duration="159000" />
       <workItem from="1546948640288" duration="3344000" />
-      <workItem from="1547009847780" duration="4405000" />
+      <workItem from="1547009847780" duration="4650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51228000" />
+    <option name="totallyTimeSpent" value="51473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -524,8 +524,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="832">
+          <caret line="63" column="23" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="23" />
           <folding>
             <element signature="e#53#95#0" expanded="true" />
             <element signature="e#379#817#0" />

@@ -52,5 +52,13 @@ function reset() {
     appState = {};
 }
 class AuthorStore extends Store {
-    
+    constructor() {
+        super();
+    }
+
+    getState() {
+        return appState;
+    }
 }
+
+let authorStoreInstance = new AuthorStore();
