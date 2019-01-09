@@ -23,7 +23,9 @@ class AuthorPage extends Component {
     };
 
     _onChange() {
-
+        this.setState({
+            authors: AuthorStore.getAllAuthors()
+        });
     }
 
     render() {
