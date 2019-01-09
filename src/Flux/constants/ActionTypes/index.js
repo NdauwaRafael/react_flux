@@ -7,5 +7,6 @@ export default keyMirror({
     CREATE_AUTHOR: null,
     GET_ALL_AUTHORS: null,
     APP_INITIALIZED: null,
+    DELETE_AUTHOR: null,
     INITIALIZE_APP: null
 });
