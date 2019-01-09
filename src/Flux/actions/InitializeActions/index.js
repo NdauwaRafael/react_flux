@@ -8,8 +8,12 @@ import ActionTypes from '../../constants/ActionTypes';
 export default {
     initApp(){
         Dispatcher.dispatch({
-           acitonType: ActionTypes.INITIALIZE_APP,
-            initData: AuthorApi.getAllAuthors()
+            actionType: ActionTypes.INITIALIZE_APP,
+            initData: AuthorApi.getAllAuthors().then((response)=>{
+                return response;
+            }, (err)=>{
+                return [];
+            })
         })
     }
 }

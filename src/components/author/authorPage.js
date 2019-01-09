@@ -3,27 +3,19 @@
  */
 import React, {Component} from 'react';
 import AuthorList from './Authorlist/index';
-import AuthorActions from '../../Flux/actions/AuthorActions';
 import AuthorStore from '../../Flux/stores/AuthorStores';
 
 class AuthorPage extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            authors: [],
-            authorsUrl: 'http://localhost:3004/authors'
+            authors: []
         };
         this._onChange = this._onChange.bind(this);
     };
 
     componentDidMount() {
         AuthorStore.addChangeListener(this._onChange);
-        AuthorActions.getAuthors(this.state.authorsUrl);
-        setTimeout(()=>{
-            this.setState({
-                authors: AuthorStore.getAllAuthors()
-            });
-        }, 200)
     };
 
     componentWillUnmount() {

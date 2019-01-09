@@ -44,8 +44,9 @@ let authorStoreInstance = new AuthorStore();
 
 authorStoreInstance.dispatchToken = Dispatcher.register(action => {
     switch (action.actionType) {
-        case ActionTypes.APP_INITIALIZED:
-            reset();
+        case ActionTypes.INITIALIZE_APP:
+            _authors = action.initData;
+            break;
 
         case ActionTypes.CREATE_AUTHOR :
             _authors.push(action.data);

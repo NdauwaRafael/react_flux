@@ -14,8 +14,8 @@ let saveAuthor = function(author, baseUrl)  {
     return fetch(baseUrl, options);
 };
 
-let getAllAuthors = function () {
-  return fetch('http://localhost:3004/authors');
+let getAllAuthors = async function () {
+  return await(await(fetch('http://localhost:3004/authors'))).json();
 };
 
 export default {
