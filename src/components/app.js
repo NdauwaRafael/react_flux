@@ -4,6 +4,8 @@
 import React from 'react';
 import Header from './Layout/Header/index';
 import Main from './Layout/Main';
+import AppInitializer from '../Flux/actions/InitializeActions';
+AppInitializer.initApp();
 
 
 const App = (props) => {
