@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2af55fc-f363-47cf-a151-244a3e809e05" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/author/Authorlist/Author/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/author/Authorlist/Author/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="f2af55fc-f363-47cf-a151-244a3e809e05" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,31 +175,14 @@
               <item name="intro_flux" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_flux" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Flux" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intro_flux" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_flux" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="author" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_flux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_flux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="author" type="462c0819:PsiDirectoryNode" />
-              <item name="Authorlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro_flux" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro_flux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="author" type="462c0819:PsiDirectoryNode" />
-              <item name="Authorlist" type="462c0819:PsiDirectoryNode" />
-              <item name="Author" type="462c0819:PsiDirectoryNode" />
+              <item name="Flux" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,16 +244,15 @@
       <workItem from="1546585093292" duration="6937000" />
       <workItem from="1546870105325" duration="159000" />
       <workItem from="1546948640288" duration="3344000" />
-      <workItem from="1547009847780" duration="6947000" />
+      <workItem from="1547009847780" duration="7074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53770000" />
+    <option name="totallyTimeSpent" value="53897000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.120238096" />
       <window_info id="Structure" order="1" weight="0.25" />
