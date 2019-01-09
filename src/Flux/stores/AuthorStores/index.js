@@ -3,7 +3,6 @@
  */
 import Dispatcher from '../../dispatcher';
 import ActionTypes from '../../constants/ActionTypes';
-import _ from 'lodash';
 import Store from '../Store';
 let _authors = [];
 let _dirtyState = false;
