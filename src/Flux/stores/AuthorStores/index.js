@@ -6,6 +6,7 @@ import ActionTypes from '../../constants/ActionTypes';
 import {EventEmitter} from 'events';
 import assign from 'object-assign';
 import _ from 'lodash';
+import Store from '../Store';
 
 const CHANGE_EVENT = 'change';
 let _authors = [];
@@ -44,3 +45,12 @@ Dispatcher.register((action) => {
 });
 
 export default AuthorStore;
+
+let appState;
+
+function reset() {
+    appState = {};
+}
+class AuthorStore extends Store {
+    
+}
