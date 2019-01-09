@@ -9,13 +9,22 @@ export default class extends Component {
         super(props);
         this.state = {
             author: {}
-        }
+        };
+        this._onChange = this._onChange.bind(this);
     }
 
-     componentWillMount() {
+     componentDidMount() {
          this.getAuthor();
-    }
+         AuthorStore.addChangeListener(this._onChange);
+     }
 
+    componentWillUnmount() {
+        AuthorStore.removeChangeListener(this._onChange);
+    };
+
+    _onChange() {
+        this.getAuthor()
+    }
 
     getAuthor(){
         let authorId = this.props.match.params.id;
