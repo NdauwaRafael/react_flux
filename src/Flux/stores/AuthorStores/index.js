@@ -4,35 +4,27 @@
 import Dispatcher from '../../dispatcher';
 import ActionTypes from '../../constants/ActionTypes';
 import Store from '../Store';
+
 let _authors = [];
 let _dirtyState = false;
-let appState;
 
-function reset() {
-    appState = {};
-}
 
 class AuthorStore extends Store {
     constructor() {
         super();
     }
 
-    getState() {
-        return appState;
-    }
-
-     getAllAuthors() {
+    getAllAuthors() {
         return _authors;
     }
+
     getAuthorById(id) {
         let author = _authors.filter(author => author.id == id);
-        if(author.length > 0){
+        if (author.length > 0) {
             return author[0];
         } else {
             return {};
         }
-
-
     }
 
     static getDirtyState() {
@@ -45,7 +37,7 @@ let authorStoreInstance = new AuthorStore();
 authorStoreInstance.dispatchToken = Dispatcher.register(action => {
     switch (action.actionType) {
         case ActionTypes.INITIALIZE_APP:
-            _authors = action.initData;
+            _authors = action.initData
             break;
 
         case ActionTypes.CREATE_AUTHOR :

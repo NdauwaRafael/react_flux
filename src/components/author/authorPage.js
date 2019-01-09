@@ -9,7 +9,7 @@ class AuthorPage extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            authors: []
+            authors: AuthorStore.getAllAuthors()
         };
         this._onChange = this._onChange.bind(this);
     };

@@ -6,14 +6,10 @@ import Dispatcher from '../../dispatcher';
 import ActionTypes from '../../constants/ActionTypes';
 
 export default {
-    initApp(){
+    async initApp(){
         Dispatcher.dispatch({
             actionType: ActionTypes.INITIALIZE_APP,
-            initData: AuthorApi.getAllAuthors().then((response)=>{
-                return response;
-            }, (err)=>{
-                return [];
-            })
+            initData: await (await (await (fetch('http://localhost:3004/authors')))).json()
         })
     }
 }
