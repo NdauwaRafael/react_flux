@@ -2,8 +2,8 @@
  * Created by Raphael Karanja on 2019-01-04.
  */
 import React, {Component} from 'react';
-import AuthorActions from '../../../../actions/AuthorActions';
-import AuthorStore from '../../../../stores/AuthorStores';
+import AuthorActions from '../../../../Flux/actions/AuthorActions';
+import AuthorStore from '../../../../Flux/stores/AuthorStores';
 export default class extends Component {
     constructor(props) {
         super(props);

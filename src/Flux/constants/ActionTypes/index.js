@@ -4,5 +4,6 @@
 import keyMirror from 'keymirror';
 
 export default keyMirror({
-    CREATE_AUTHOR: null
+    CREATE_AUTHOR: null,
+    GET_ALL_AUTHORS: null
 });

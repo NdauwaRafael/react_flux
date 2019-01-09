@@ -20,20 +20,24 @@ const AuthorStore = assign({}, EventEmitter.prototype, {
     emitChange: () => {
         this.emit(CHANGE_EVENT);
     },
-    getAllAuthors: ()=>{
+    getAllAuthors: () => {
         return _authors;
     },
-    getAuthorById: (id)=>{
+    getAuthorById: (id) => {
         return _.find(_authors, {id: id});
     },
-    getDirtyState(){
+    getDirtyState() {
         return _dirtyState;
     }
 });
 Dispatcher.register((action) => {
     switch (action.actionType) {
         case ActionTypes.CREATE_AUTHOR :
-            _authors.push(action.author);
+            _authors.push(action.data);
+            AuthorStore.emitChange();
+            break;
+        case ActionTypes.GET_ALL_AUTHORS:
+            _authors = action.data;
             AuthorStore.emitChange();
             break;
     }

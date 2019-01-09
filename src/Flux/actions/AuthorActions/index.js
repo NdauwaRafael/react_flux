@@ -3,7 +3,7 @@
  */
 import Dispatcher from '../../dispatcher';
 import ActionTypes from '../../constants/ActionTypes';
-import AuthorApis from '../../API'
+import AuthorApis from '../../../API'
 import toastr from "toastr";
 
 const AuthorActions = {
@@ -20,8 +20,15 @@ const AuthorActions = {
             });
 
         Dispatcher.dispatch({
-            actioType: ActionTypes.CREATE_AUTHOR,
+            actionType: ActionTypes.CREATE_AUTHOR,
             data: newAuthor
+        })
+    },
+     getAuthors: async (authorsUrl)=>{
+        const authors = await (await (fetch(authorsUrl))).json();
+        Dispatcher.dispatch({
+            actionType: ActionTypes.GET_ALL_AUTHORS,
+            data: authors
         })
     }
 };

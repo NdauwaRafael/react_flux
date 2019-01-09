@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import AddAuthorForm from './Add';
-import AuthorActions from '../../../actions/AuthorActions';
-import AuthorStore from '../../../stores/AuthorStores';
+import AuthorActions from '../../../Flux/actions/AuthorActions';
+import AuthorStore from '../../../Flux/stores/AuthorStores';
 
 class Manage extends Component {
     constructor(prop) {
