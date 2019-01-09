@@ -13,6 +13,7 @@ export default class extends Component {
         };
         this._onChange = this._onChange.bind(this);
         this.deleteAuthor = this.deleteAuthor.bind(this);
+        this.redirect = this.redirect.bind(this);
     }
 
      componentDidMount() {
@@ -25,7 +26,14 @@ export default class extends Component {
     };
 
     _onChange() {
-        this.getAuthor()
+        this.getAuthor();
+        this.redirect();
+    }
+
+    redirect(){
+        if(!this.author) {
+            this.props.history.push('/authors');
+        }
     }
 
     getAuthor(){
