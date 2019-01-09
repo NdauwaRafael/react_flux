@@ -19,8 +19,11 @@ class AuthorPage extends Component {
     componentDidMount() {
         AuthorStore.addChangeListener(this._onChange);
         AuthorActions.getAuthors(this.state.authorsUrl);
-        this.setState({
-            authors: AuthorStore.getAllAuthors()
+        AuthorActions.getAuthors(this.state.authorsUrl);
+        setTimeout(()=>{
+            this.setState({
+                authors: AuthorStore.getAllAuthors()
+            }, 2000);
         })
     };
 
@@ -29,7 +32,7 @@ class AuthorPage extends Component {
     };
 
     _onChange() {
-        AuthorActions.getAuthors(this.state.authorsUrl);
+
     }
 
     render() {
