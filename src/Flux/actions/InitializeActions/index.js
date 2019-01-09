@@ -7,7 +7,9 @@ import Dispatcher from '../../dispatcher';
 import ActionTypes from '../../constants/ActionTypes';
 
 class InitializeActions {
-
+    initApp(){
+        
+    }
 }
 
 export default InitializeActions;
