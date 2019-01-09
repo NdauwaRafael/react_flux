@@ -15,7 +15,7 @@ export default class extends Component {
     async componentWillMount() {
         let authorId = this.props.match.params.id;
         if (authorId) {
-            let author = AuthorStore.getAuthorById(authorId);
+            let author = await(AuthorStore.getAuthorById(authorId));
             this.setState({author});
         }
     }
