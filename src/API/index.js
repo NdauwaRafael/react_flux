@@ -14,11 +14,17 @@ let saveAuthor = function (author, baseUrl) {
     return fetch(baseUrl, options);
 };
 
+let deleteAuthor = function(baseUrl){
+    return fetch(baseUrl, { method: 'DELETE'});
+};
+
 let getAllAuthors =  async function () {
     return await (await (await (fetch('http://localhost:3004/authors')))).json();
 };
 
+
 export default {
     saveAuthor,
-    getAllAuthors
+    getAllAuthors,
+    deleteAuthor
 };

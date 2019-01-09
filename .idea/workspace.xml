@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2af55fc-f363-47cf-a151-244a3e809e05" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Flux/constants/ActionTypes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flux/constants/ActionTypes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/API/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/API/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flux/actions/AuthorActions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flux/actions/AuthorActions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/author/Authorlist/Author/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/author/Authorlist/Author/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/author/Authorlist/Author/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="40" column="47" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="47" />
+            <state relative-caret-position="-1436">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
               <folding>
                 <element signature="e#53#92#0" expanded="true" />
               </folding>
@@ -39,19 +43,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Flux/actions/InitializeActions/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="10" column="79" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="79" />
+              <folding>
+                <element signature="e#53#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Flux/actions/AuthorActions/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            <state relative-caret-position="316">
+              <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+              <folding>
+                <element signature="e#53#95#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+              <folding>
+                <element signature="e#53#95#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Flux/constants/ActionTypes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="324">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/API/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="832">
+              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -103,16 +143,16 @@
         <option value="$PROJECT_DIR$/db.json" />
         <option value="$PROJECT_DIR$/src/components/app.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/API/index.js" />
         <option value="$PROJECT_DIR$/src/components/author/Authorlist/index.js" />
         <option value="$PROJECT_DIR$/src/css/body.css" />
         <option value="$PROJECT_DIR$/src/components/author/authorPage.js" />
         <option value="$PROJECT_DIR$/src/Flux/actions/InitializeActions/index.js" />
         <option value="$PROJECT_DIR$/src/components/author/Manage/index.js" />
-        <option value="$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js" />
+        <option value="$PROJECT_DIR$/src/Flux/constants/ActionTypes/index.js" />
+        <option value="$PROJECT_DIR$/src/API/index.js" />
         <option value="$PROJECT_DIR$/src/components/author/Authorlist/Author/index.js" />
         <option value="$PROJECT_DIR$/src/Flux/actions/AuthorActions/index.js" />
-        <option value="$PROJECT_DIR$/src/Flux/constants/ActionTypes/index.js" />
+        <option value="$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js" />
       </list>
     </option>
   </component>
@@ -161,7 +201,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Flux" type="462c0819:PsiDirectoryNode" />
               <item name="actions" type="462c0819:PsiDirectoryNode" />
-              <item name="AuthorActions" type="462c0819:PsiDirectoryNode" />
+              <item name="InitializeActions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="intro_flux" type="b2602c69:ProjectViewProjectNode" />
@@ -238,12 +278,12 @@
       <workItem from="1546585093292" duration="6937000" />
       <workItem from="1546870105325" duration="159000" />
       <workItem from="1546948640288" duration="3344000" />
-      <workItem from="1547009847780" duration="14231000" />
+      <workItem from="1547009847780" duration="15555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61054000" />
+    <option name="totallyTimeSpent" value="62378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -483,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Flux/actions/InitializeActions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/author/Authorlist/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
@@ -527,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/API/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/author/Manage/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -547,37 +573,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Flux/actions/InitializeActions/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="360">
+          <caret line="10" column="79" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="79" />
           <folding>
             <element signature="e#53#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/API/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/author/Authorlist/Author/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="40" column="47" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="47" />
+        <state relative-caret-position="-1436">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding>
             <element signature="e#53#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Flux/actions/AuthorActions/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Flux/constants/ActionTypes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        <state relative-caret-position="324">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Flux/constants/ActionTypes/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Flux/actions/AuthorActions/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="316">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="e#53#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+          <folding>
+            <element signature="e#53#95#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -12,6 +12,7 @@ export default class extends Component {
             authorId: this.props.match.params.id
         };
         this._onChange = this._onChange.bind(this);
+        this.deleteAuthor = this.deleteAuthor.bind(this);
     }
 
      componentDidMount() {
@@ -64,7 +65,7 @@ export default class extends Component {
                         <td>
                             <button type="button" className="btn btn-outline-info btn-sm ">Edit</button>
 
-                            <button type="button" className="btn btn-outline-danger btn-sm ">Delete</button>
+                            <button type="button" className="btn btn-outline-danger btn-sm " onClick={this.deleteAuthor}>Delete</button>
                         </td>
                     </tr>
                     </tbody>

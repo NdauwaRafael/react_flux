@@ -3,6 +3,7 @@
  */
 import Dispatcher from '../../dispatcher';
 import ActionTypes from '../../constants/ActionTypes';
+import _ from 'lodash';
 import Store from '../Store';
 
 let _authors = [];
@@ -42,6 +43,12 @@ authorStoreInstance.dispatchToken = Dispatcher.register(action => {
             break;
         case ActionTypes.GET_ALL_AUTHORS:
             _authors = action.data;
+            break;
+
+        case ActionTypes.DELETE_AUTHOR :
+            _.remove(_authors, author=>{
+                return author.id === action.id
+            });
             break;
         default:
             return;
