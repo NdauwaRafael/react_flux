@@ -34,6 +34,7 @@ export default class extends Component {
                     <tr>
                         <th>ID</th>
                         <th>Name</th>
+                        <th>eMail</th>
                         <th>Action</th>
                     </tr>
                     </thead>
@@ -42,6 +43,11 @@ export default class extends Component {
                         <td>{author.firstname}</td>
                         <td>{author.lastname}</td>
                         <td>{author.email}</td>
+                        <td>
+                            <button type="button" className="btn btn-outline-info btn-sm ">Edit</button>
+
+                            <button type="button" className="btn btn-outline-danger btn-sm ">Delete</button>
+                        </td>
                     </tr>
                     </tbody>
                 </table>

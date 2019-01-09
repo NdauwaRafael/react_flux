@@ -38,7 +38,7 @@ const AuthorList = ({authors}) => {
                         <tr>
                             <th>ID</th>
                             <th>Name</th>
-                            <th>Action</th>
+                            <th>Actions</th>
                         </tr>
                         </thead>
                         <tbody>
