@@ -5,3 +5,9 @@ import AuthorActions from '../AuthorActions';
 import AuthorStore from '../../stores/AuthorStores';
 import Dispatcher from '../../dispatcher';
 import ActionTypes from '../../constants/ActionTypes';
+
+class InitializeActions {
+
+}
+
+export default InitializeActions;
