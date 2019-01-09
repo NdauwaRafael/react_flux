@@ -26,7 +26,14 @@ class AuthorStore extends Store {
         return _authors;
     }
     getAuthorById(id) {
-        return _.find(_authors, {id: id});
+        let author = _authors.filter(author => author.id == id);
+        if(author.length > 0){
+            return author[0];
+        } else {
+            return {};
+        }
+
+
     }
 
     static getDirtyState() {

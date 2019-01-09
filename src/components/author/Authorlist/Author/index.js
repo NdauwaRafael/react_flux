@@ -8,14 +8,34 @@ export default class extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            author: {}
+            author: {},
+            authorsUrl: 'http://localhost:3004/authors'
         }
     }
 
-    async componentWillMount() {
+     componentWillMount() {
+        let authors = AuthorStore.getAllAuthors();
+        if(authors.length === 0){
+            this.getAthors();
+        }else{
+            setTimeout(()=>{
+                this.getAuthor();
+            }, 2000)
+        }
+        
+    }
+
+    getAthors(){
+        AuthorActions.getAuthors(this.state.authorsUrl);
+        setTimeout(()=>{
+            this.getAuthor();
+        }, 200)
+    }
+
+    getAuthor(){
         let authorId = this.props.match.params.id;
         if (authorId) {
-            let author = await(AuthorStore.getAuthorById(authorId));
+            let author = AuthorStore.getAuthorById(authorId);
             this.setState({author});
         }
     }

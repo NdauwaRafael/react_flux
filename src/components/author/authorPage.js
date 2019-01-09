@@ -19,7 +19,6 @@ class AuthorPage extends Component {
     componentDidMount() {
         AuthorStore.addChangeListener(this._onChange);
         AuthorActions.getAuthors(this.state.authorsUrl);
-        AuthorActions.getAuthors(this.state.authorsUrl);
         setTimeout(()=>{
             this.setState({
                 authors: AuthorStore.getAllAuthors()
