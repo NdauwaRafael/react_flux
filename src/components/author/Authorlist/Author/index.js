@@ -3,11 +3,13 @@
  */
 import React, {Component} from 'react';
 import AuthorStore from '../../../../Flux/stores/AuthorStores';
+import AuthorActions from '../../../../Flux/actions/AuthorActions'
 export default class extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            author: {}
+            author: {},
+            authorId: this.props.match.params.id
         };
         this._onChange = this._onChange.bind(this);
     }
@@ -26,11 +28,19 @@ export default class extends Component {
     }
 
     getAuthor(){
-        let authorId = this.props.match.params.id;
+        let {authorId} =this.state;
         if (authorId) {
             let author = AuthorStore.getAuthorById(authorId);
             this.setState({author});
         }
+    }
+
+    deleteAuthor(){
+        let {authorId} =this.state;
+        if(authorId){
+            AuthorActions.deleteAuthor(authorId)
+        }
+
     }
 
     render() {

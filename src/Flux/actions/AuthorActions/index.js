@@ -24,12 +24,15 @@ const AuthorActions = {
             data: newAuthor
         })
     },
-     getAuthors: async (authorsUrl)=>{
+    getAuthors: async (authorsUrl) => {
         const authors = await (await (fetch(authorsUrl))).json();
         Dispatcher.dispatch({
             actionType: ActionTypes.GET_ALL_AUTHORS,
             data: authors
         })
+    },
+    deleteAuthor: (authorId) => {
+
     }
 };
 
