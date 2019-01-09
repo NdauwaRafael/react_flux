@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2af55fc-f363-47cf-a151-244a3e809e05" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Flux/actions/InitializeActions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flux/actions/InitializeActions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/author/Authorlist/Author/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/author/Authorlist/Author/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/author/Manage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/author/Manage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,12 +27,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/author/Authorlist/Author/index.js">
+        <entry file="file://$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="4" column="63" lean-forward="true" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+            <state relative-caret-position="471">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
-                <element signature="e#53#92#0" expanded="true" />
+                <element signature="e#53#95#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,13 +88,13 @@
         <option value="$PROJECT_DIR$/src/components/app.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/API/index.js" />
-        <option value="$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js" />
         <option value="$PROJECT_DIR$/src/components/author/Authorlist/index.js" />
         <option value="$PROJECT_DIR$/src/css/body.css" />
         <option value="$PROJECT_DIR$/src/components/author/authorPage.js" />
         <option value="$PROJECT_DIR$/src/Flux/actions/InitializeActions/index.js" />
         <option value="$PROJECT_DIR$/src/components/author/Manage/index.js" />
         <option value="$PROJECT_DIR$/src/components/author/Authorlist/Author/index.js" />
+        <option value="$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js" />
       </list>
     </option>
   </component>
@@ -130,7 +128,22 @@
               <item name="intro_flux" type="b2602c69:ProjectViewProjectNode" />
               <item name="intro_flux" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="Flux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intro_flux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intro_flux" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Flux" type="462c0819:PsiDirectoryNode" />
+              <item name="stores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="intro_flux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="intro_flux" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Flux" type="462c0819:PsiDirectoryNode" />
+              <item name="stores" type="462c0819:PsiDirectoryNode" />
+              <item name="AuthorStores" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,12 +205,12 @@
       <workItem from="1546585093292" duration="6937000" />
       <workItem from="1546870105325" duration="159000" />
       <workItem from="1546948640288" duration="3344000" />
-      <workItem from="1547009847780" duration="13655000" />
+      <workItem from="1547009847780" duration="13745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60478000" />
+    <option name="totallyTimeSpent" value="60568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -498,16 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#53#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/API/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="724">
@@ -534,6 +537,16 @@
           <caret line="4" column="63" lean-forward="true" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
           <folding>
             <element signature="e#53#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flux/stores/AuthorStores/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#53#95#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -10,16 +10,13 @@ let _dirtyState = false;
 
 
 class AuthorStore extends Store {
-    constructor() {
-        super();
-    }
 
     getAllAuthors() {
         return _authors;
     }
 
     getAuthorById(id) {
-        let author = _authors.filter(author => author.id == id);
+        let author = _authors.filter(author => author.id === parseInt(id));
         if (author.length > 0) {
             return author[0];
         } else {
