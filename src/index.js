@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './utils/imports';
 import {BrowserRouter} from 'react-router-dom';
-import App from './components/app'
+import App from './components/app';
+import AppInitializer from './Flux/actions/InitializeActions';
+AppInitializer.initApp();
 
 ReactDOM.render((
     <BrowserRouter>

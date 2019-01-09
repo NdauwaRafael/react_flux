@@ -5,7 +5,7 @@ import AuthorApi from '../../../API'
 import Dispatcher from '../../dispatcher';
 import ActionTypes from '../../constants/ActionTypes';
 
-class InitializeActions {
+export default {
     initApp(){
         Dispatcher.dispatch({
            acitonType: ActionTypes.INITIALIZE_APP,
@@ -13,5 +13,3 @@ class InitializeActions {
         })
     }
 }
-
-export default InitializeActions;

@@ -19,5 +19,6 @@ let getAllAuthors = function () {
 };
 
 export default {
-    saveAuthor
+    saveAuthor,
+    getAllAuthors
 };
