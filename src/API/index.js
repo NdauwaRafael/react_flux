@@ -14,6 +14,10 @@ let saveAuthor = function(author, baseUrl)  {
     return fetch(baseUrl, options);
 };
 
+let getAllAuthors = function () {
+  return fetch('http://localhost:3004/authors');
+};
+
 export default {
     saveAuthor
 };
