@@ -21,3 +21,7 @@ class Store extends EventEmitter {
         this.removeListener(CHANGE_EVENT, callback);
     }
 }
+
+Store.dispatchToken = null;
+
+export default Store;
