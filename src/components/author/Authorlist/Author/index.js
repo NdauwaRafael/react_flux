@@ -18,11 +18,9 @@ export default class extends Component {
         if(authors.length === 0){
             this.getAthors();
         }else{
-            setTimeout(()=>{
-                this.getAuthor();
-            }, 2000)
+            this.getAuthor();
         }
-        
+
     }
 
     getAthors(){
