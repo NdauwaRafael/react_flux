@@ -8,14 +8,12 @@ import Main from './Layout/Main';
 
 const App = (props) => {
     return (
-        <div>
-            <div>
-                <div className="container">
-                    <div className="card">
-                        <Header/>
-                    </div>
-                    <Main/>
+        <div className="homepage">
+            <div className="container">
+                <div className="card">
+                    <Header/>
                 </div>
+                <Main/>
             </div>
         </div>
     );

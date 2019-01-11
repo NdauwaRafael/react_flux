@@ -12,6 +12,7 @@ class AuthorPage extends Component {
             authors: AuthorStore.getAllAuthors()
         };
         this._onChange = this._onChange.bind(this);
+        this.loadAuthors = this.loadAuthors.bind(this);
     };
 
     componentDidMount() {
@@ -23,6 +24,10 @@ class AuthorPage extends Component {
     };
 
     _onChange() {
+        this.loadAuthors();
+    }
+
+    loadAuthors(){
         this.setState({
             authors: AuthorStore.getAllAuthors()
         });

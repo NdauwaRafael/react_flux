@@ -13,16 +13,16 @@
       "email": "PDamsley"
     },
     {
-      "id": 6,
-      "firstname": "Douglas",
-      "lastname": "Mburu",
-      "email": "dmburu@gmail.com"
-    },
-    {
       "id": 7,
       "firstname": "Phillip",
       "lastname": "Kitamura",
       "email": "pkitamura@gmail.com"
+    },
+    {
+      "id": 8,
+      "firstname": "Raphael",
+      "lastname": "Karanja",
+      "email": "raphaelndauwa@gmail.com"
     }
   ]
 }
