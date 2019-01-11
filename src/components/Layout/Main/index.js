@@ -5,7 +5,7 @@ import React from 'react';
 import Routes from '../../../routes/routes'
 // The Main component renders one of the three provided
 const Main = () => (
-    <main>
+    <main className="mainPage">
         {Routes}
     </main>
 );

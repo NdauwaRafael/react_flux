@@ -2,15 +2,15 @@
  * Created by Raphael Karanja on 05/12/2018.
  */
 import React from 'react';
-import Header from './Layout/Header/index';
+import Footer from './Layout/Foot'
 import Main from './Layout/Main';
 
 
 const App = (props) => {
     return (
         <div className="homepage">
-            <Header/>
-
+            <Main />
+            <Footer />
         </div>
     );
 };
