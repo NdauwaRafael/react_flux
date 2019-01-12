@@ -4,5 +4,7 @@
 import React from 'react';
 export default props=>
     <div className="category">
+        <div className="category__body">
 
+        </div>
     </div>

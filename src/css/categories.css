@@ -1,0 +1,38 @@
+.categories {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.category {
+    width: 25%;
+    padding: 10px;
+    background-image: url("/img/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.category::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.55);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    /*z-index: -1;*/
+}
+
+.category__body {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
