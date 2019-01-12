@@ -7,4 +7,7 @@ import '../../../css/categories.css';
 export default (props)=>
     <div className="categories">
         <Category />
+        <Category />
+        <Category />
+        <Category />
     </div>

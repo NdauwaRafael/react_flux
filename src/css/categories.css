@@ -1,5 +1,5 @@
 .categories {
-    height: 30%;
+    height: 35%;
     width: 100%;
     flex: 1;
     display: flex;
@@ -16,6 +16,22 @@
     background-position: center;
     background-size: cover;
     position: relative;
+}
+
+.category:nth-child(1){
+    background-image: url("/img/img1.jpg");
+}
+
+.category:nth-child(2){
+    background-image: url("/img/img2.jpg");
+}
+
+.category:nth-child(3){
+    background-image: url("/img/img3.jpg");
+}
+
+.category:nth-child(4){
+    background-image: url("/img/img4.jpg");
 }
 
 .category::before {
