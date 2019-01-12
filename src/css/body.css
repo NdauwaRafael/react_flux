@@ -51,7 +51,7 @@
 
 .mainPage, .homepage__content, .header_section__content,  .homepage {
     height: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
 }
 
 .foot_menu {
