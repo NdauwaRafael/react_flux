@@ -4,6 +4,7 @@
 import React from 'react';
 export default props=>
     <div className="category">
+        <img src={props.image} alt=""/>
         <div className="category__body">
 
         </div>

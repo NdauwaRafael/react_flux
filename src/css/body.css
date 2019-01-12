@@ -10,18 +10,21 @@
     height: 100%;
     background: #eeeeee;
 }
+
 .homepage {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
+    background: #eeeeee;
+    /*padding: 0 5px;*/
 }
 
 .header_section {
     width: 100%;
-    height: 65%;
+    height: 75%;
     position: relative;
-    background-image: url("/img/img3.jpg");
+    background-image: url("/img/img2.jpg");
     background-position: center;
     background-size: cover;
     /*flex: 2;*/
@@ -30,7 +33,7 @@
 
 .header_section::before {
     content: "";
-    background: rgba(0, 0, 0, 0.55);
+    background: rgba(0, 0, 0, 0.65);
     top: 0;
     left: 0;
     bottom: 0;
