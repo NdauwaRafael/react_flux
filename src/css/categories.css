@@ -21,7 +21,7 @@
 
 .category::before {
     content: "";
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.45);
     top: 0;
     left: 0;
     bottom: 0;
@@ -50,7 +50,7 @@
 
 }
 .category__body h3 {
-    color: #eeeeee;
+    color: #e1e1e1;
     font-size: 16px;
 }
 
