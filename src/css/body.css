@@ -72,3 +72,31 @@
     background-image: linear-gradient(270deg, #000000 0%, #eeeeee 100%);
 
 }
+
+
+/*
+*ABOUT PAGE
+ */
+.about_page {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url("/img/about1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.about_page::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.65);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    /*z-index: -1;*/
+}
+
+.about_page__content {
+
+}
