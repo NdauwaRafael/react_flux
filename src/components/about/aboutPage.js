@@ -12,15 +12,17 @@ class About extends Component {
 
                     </div>
                     <div className="content">
-                        <h1>About </h1>
-                        <p>
-                            The Communications Lead will be tasked with the development of
-                            social media posts, blogs, press releases, video content and other communications
-                            material in line with the communications strategy. Content shall (among others)
-                            document learnings from Pangea Accelerator programs, showcase startups
-                            participating in Pangea Accelerator programs, provide insights into the African startup
-                            ecosystem and share opportunities
-                        </p>
+                        <div className="container">
+                            <h1>About </h1>
+                            <p>
+                                The Communications Lead will be tasked with the development of
+                                social media posts, blogs, press releases, video content and other communications
+                                material in line with the communications strategy. Content shall (among others)
+                                document learnings from Pangea Accelerator programs, showcase startups
+                                participating in Pangea Accelerator programs, provide insights into the African startup
+                                ecosystem and share opportunities
+                            </p>
+                        </div>
                     </div>
                     {/*<ul>*/}
                     {/*<li>React</li>*/}

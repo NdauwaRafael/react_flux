@@ -114,6 +114,6 @@
 .about_page__content .content {
     flex: 1;
     color: #eeeeee;
-    text-align: center;
+    /*text-align: center;*/
     margin: 0 10px;
 }
